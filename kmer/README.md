@@ -90,7 +90,7 @@ def optimized_counter_kmer_count(sequence: str, k: int) -> Dict[str, int]:
 - **Result Comparison:** Run the same input through Jellyfish to count k-mers and compare the results (you can compare counts for each k-mer).
 
 ### Step 4: "Golden Standard" Comparison
-Run **Jellyfish** as your "gold standard" tool. Jellyfish is designed for efficient k-mer counting and is highly optimized for large datasets. You can compare the counts from your Python implementations with the output from Jellyfish to validate the accuracy and performance.
+Run **Jellyfish** as the "gold standard" tool. Jellyfish is designed for efficient k-mer counting and is highly optimized for large datasets. You can compare the counts from your Python implementations with the output from Jellyfish to validate the accuracy and performance.
 
 ---
 
